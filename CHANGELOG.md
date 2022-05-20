@@ -23,6 +23,8 @@ Bug Fixes:
 - Correctly configure the build environment when using VS 2015 and Ninja in CMakePresets.json. [#2516](https://github.com/microsoft/vscode-cmake-tools/issues/2516)
 - Select the correct VS toolset for Ninja generators with CMake Presets. [#2423](https://github.com/microsoft/vscode-cmake-tools/issues/2423)
 - Fix unhandled exception with CMakePresets.json. [#2117](https://github.com/microsoft/vscode-cmake-tools/issues/2117)
+- Fix clang version detection regexes. [PR #2549](https://github.com/microsoft/vscode-cmake-tools/pull/2549) [@chausner](https://github.com/chausner)
+- Triggering reconfigure after changes made to included files. [#2526](https://github.com/microsoft/vscode-cmake-tools/issues/2526) [@chausner](https://github.com/chausner)
 
 ## 1.10.5
 Bug Fixes:
